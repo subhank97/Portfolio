@@ -1,5 +1,5 @@
 import React from 'react'
-import ecommerce from '../assets/ecommerce.jpg'
+import ecommerce from '../assets/ecommerce.png'
 
 const Projects = () => {
     return (
@@ -16,7 +16,7 @@ const Projects = () => {
                                 NextJS Application
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='subissneakerstore.vercel.app'>
+                                <a href='https://subissneakerstore-git-main-subhank97.vercel.app/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href='https://github.com/subhank97/ECommerce-Frontend'>
