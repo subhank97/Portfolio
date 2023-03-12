@@ -3,12 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "autoprefixer": "^10.4.13",
+    "email-js": "^2.0.2",
+    "emailjs": "^4.0.1",
+    "emailjs-com": "^3.2.0",
+    "postcss": "^8.4.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
+    "tailwindcss": "^3.2.7",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
