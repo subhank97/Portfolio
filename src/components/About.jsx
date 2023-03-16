@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+        <div name='about' className='w-full h-screen text-gray-300'>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                     <div className='sm:text-right pb-8 pl-4'>
@@ -18,12 +18,17 @@ const About = () => {
                     </div>
 
                     <div>
-                        <p>Full Stack Developer with experience using frontend and backend technologies such
-                            as Javascript, Python, React, Vue.js, Rails, and FastAPI. Transitioned from finance
-                            to tech with a strong interest in full-stack development and working in cross-functional
-                            teams. I’m very passionate about learning new things and staying current with the
-                            technology and thrive when creating programs and solutions centered on improving the
-                            customer experience through new technologies. </p>
+                        <p>
+                            I began my professional career in the field of finance but shortly after found myself
+                            drained by the lack of creativity and innovation in the field. After taking a short hiatus
+                            from finance and exploring alternative fields, I realized I am a self starter by nature and
+                            thrive in energetic, fast paced environments. I was introduced to coding by my network of
+                            friends and found myself excited every time I opened my laptop to learn about coding. The
+                            were no limits with what I can create. I took the chance on formally developing my development
+                            skills and completed a full stack development apprenticeship in a health start up, both of which
+                            polished my skills and provided me with real world side projects. I’ve never been more prepared 
+                            to bring my skill set to a full time role where I can continue learn to and contribute to.
+                        </p>
                     </div>
                 </div>
             </div>
