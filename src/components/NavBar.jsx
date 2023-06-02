@@ -1,19 +1,15 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
-import Logo from '../assets/logo1.png'
+import Logo from '../assets/logo.png'
 import { Link } from 'react-scroll'
 
-const NavBar = () => {
+const NavBar = ({ mode, setMode, lightModeStyles, darkModeStyles }) => {
 
-    // Function will execute on click of button
     const onButtonClick = () => {
-        // using Java Script method to get PDF file
         fetch('Resume.pdf').then(response => {
             response.blob().then(blob => {
-                // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
-                // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
                 alink.download = 'Resume.pdf';
@@ -25,11 +21,17 @@ const NavBar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
 
+    const handleModeToggle = () => {
+        setMode((prevMode) => (prevMode === "light" ? "dark" : "light"));
+    };
+
     return (
-        <div className='fixed w-full h-[60px] flex justify-between items-center px-4 text-gray-300'>
-            <div>
-                <img src={Logo} alt='logo' style={{ width: 'auto', height: '60px' }} />
-            </div>
+        <div className='fixed w-full h-[60px] flex justify-between items-center px-4' style={mode === 'light' ? lightModeStyles : darkModeStyles}>
+            {/* <img src={Logo} alt='logo' style={{ marginTop: '10px', width: '150px', height: 'auto', backgroundColor: 'transparent' }} /> */}
+            <label className='switch'>
+                <input type='checkbox' checked={mode === 'light'} onChange={handleModeToggle} />
+                <span className='slider'></span>
+            </label>
 
             {/* Menu */}
             <ul className='hidden md:flex'>
@@ -49,7 +51,7 @@ const NavBar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="projects"  smooth={true} offset={50} duration={500}>
+                    <Link to="projects" smooth={true} offset={50} duration={500}>
                         Projects
                     </Link>
                 </li>

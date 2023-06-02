@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div name='contact' className='w-full md:h-screen text-white flex justify-center items-center p-4'>
+        <div name='contact' className='w-full md:h-screen flex justify-center items-center p-4'>
             <section className="py-6" >
                 <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
                     <div className="py-6 md:py-0 md:px-6">
