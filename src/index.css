@@ -28,6 +28,7 @@
         rgba(255, 112, 193, 0.8),
         hsla(331, 74%, 61%, 0.8)   
     )!important;
+    opacity: 100%;
 }
 
 .switch {

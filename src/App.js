@@ -10,13 +10,13 @@ function App() {
   const [mode, setMode] = useState("dark");
 
   const lightModeStyles = {
-    backgroundColor: "#F4F4F4",
-    color: "#333333",
+    backgroundColor: "#FAF9F6",
+    color: "#201F20",
   };
   
   const darkModeStyles = {
-    backgroundColor: "#1A202C",
-    color: "#E6E6E6",
+    backgroundColor: "#201F20",
+    color: "#FAF9F6",
   };
 
   return (

@@ -9,7 +9,7 @@ const Home = () => {
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
                 <p className='text-pink-600 font-bold'>Hi, my name is</p>
                 <h1 className='text-4xl sm:text-7xl font-bold'>Subhan Khan</h1>
-                <h2 className='text-4xl sm:text-7xl font-bold'>I'm a Full Stack Developer</h2>
+                <h2 className='text-4xl sm:text-7xl font-bold'>I'm a Software Engineer</h2>
                 <p className='py-4 max-w-[700px]'>
                     Full Stack Developer with experience using frontend and backend technologies such
                     as Javascript, Python, React, Vue.js, Rails, and FastAPI. Transitioned from finance
