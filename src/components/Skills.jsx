@@ -1,10 +1,14 @@
 import React from 'react'
 import javascript from '../assets/javascript.png'
 import react from '../assets/react.png'
+import next from '../assets/nextjs.png'
+import rails from '../assets/rails.png'
+import sanity from '../assets/sanity.png'
 import html from '../assets/html.png'
 import tailwind from '../assets/tailwind.png'
 import css from '../assets/css.png'
 import github from '../assets/github.png'
+
 
 
 const Skills = () => {
@@ -27,6 +31,18 @@ const Skills = () => {
                         <p className='py-5'>React</p>
                     </div>
                     <div className='shadow-md shadow-[#73a5e1]'>
+                        <img className='w-20 mx-auto hover:scale-150 duration-500' src={next} alt='github logo' />
+                        <p className='py-5'>Next</p>
+                    </div>
+                    <div className='shadow-md shadow-[#73a5e1]'>
+                        <img className='w-20 mx-auto hover:scale-150 duration-500' src={rails} alt='github logo' />
+                        <p className='py-5'>Rails</p>
+                    </div>
+                    <div className='shadow-md shadow-[#73a5e1]'>
+                        <img className='w-20 mx-auto hover:scale-150 duration-500' src={sanity} alt='github logo' />
+                        <p className='py-5'>Sanity</p>
+                    </div>
+                    <div className='shadow-md shadow-[#73a5e1]'>
                         <img className='w-20 mx-auto hover:scale-150 duration-500' src={html} alt='html logo' />
                         <p className='py-5'>HTML</p>
                     </div>
@@ -42,7 +58,6 @@ const Skills = () => {
                         <img className='w-20 mx-auto hover:scale-150 duration-500' src={github} alt='github logo' />
                         <p className='py-5'>Github</p>
                     </div>
-
                 </div>
 
             </div>

@@ -10,12 +10,12 @@ function App() {
   const [mode, setMode] = useState("dark");
 
   const lightModeStyles = {
-    backgroundColor: "#FAF9F6",
+    background: "linear-gradient(to right, #FFFCEF, #FAF8E7)",
     color: "#201F20",
   };
   
   const darkModeStyles = {
-    backgroundColor: "#201F20",
+    background: "linear-gradient(to right, #3A3A3A, #201F20)",
     color: "#FAF9F6",
   };
 
