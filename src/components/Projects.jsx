@@ -21,14 +21,18 @@ const Projects = () => {
                                     React.js/Rails App
                                 </span>
                                 <p className='mt-2 w-full'>
-                                    My final project at my coding bootcamp. PhotoFolio is an evolved Instagram-inspired photo 
-                                    gallery app styled with Tailwind, allowing users to browse, comment on, and upload photos 
-                                    through a beautifully designed profile page. Developed as a Single Page Application using 
-                                    React.js and Ruby on Rails, it integrates Redux for state management, React Router for 
-                                    seamless navigation, and offers features like modals for detailed post views and real-time 
-                                    post interactions. Backend consistency is ensured through synchronizing front-end activities 
+                                    My final project at my coding bootcamp. PhotoFolio is an evolved Instagram-inspired photo
+                                    gallery app styled with Tailwind, allowing users to browse, comment on, and upload photos
+                                    through a beautifully designed profile page. Developed as a Single Page Application using
+                                    React.js and Ruby on Rails, it integrates Redux for state management, React Router for
+                                    seamless navigation, and offers features like modals for detailed post views and real-time
+                                    post interactions. Backend consistency is ensured through synchronizing front-end activities
                                     like post creation and deletion with the backend database.
                                 </p>
+                                <p className='text-pink-600 font-bold'>
+                                    This app is deployed on Render so the server can take up to a minute to wake up :(
+                                </p>
+
                             </div>
 
                             <div className='flex justify-end mt-3'>
@@ -51,12 +55,12 @@ const Projects = () => {
                                     Next.js/Sanity.io App
                                 </span>
                                 <p className='mt-2 w-full'>
-                                    Subis Sneaker Shop stands out as a state-of-the-art E-commerce platform developed using 
-                                    Next.js, ensuring swift and user-friendly navigation through server-side rendering. It 
-                                    integrates Sanity.io, facilitating adaptive content management, while Stripe is implemented 
-                                    for secure and effortless online purchases. Utilizing React hooks, the application ensures 
-                                    enhanced user interaction, effectively manages shopping cart contents, and provides instant 
-                                    content refreshes. Users can explore an extensive sneaker assortment, earmark their favorite 
+                                    Subis Sneaker Shop stands out as a state-of-the-art E-commerce platform developed using
+                                    Next.js, ensuring swift and user-friendly navigation through server-side rendering. It
+                                    integrates Sanity.io, facilitating adaptive content management, while Stripe is implemented
+                                    for secure and effortless online purchases. Utilizing React hooks, the application ensures
+                                    enhanced user interaction, effectively manages shopping cart contents, and provides instant
+                                    content refreshes. Users can explore an extensive sneaker assortment, earmark their favorite
                                     pairs, and experience a frictionless checkout process courtesy of Stripe.
                                 </p>
                             </div>
